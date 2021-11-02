@@ -1,0 +1,28 @@
+body {
+    background-color: darkcyan;
+}
+#principal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: white;
+}
+
+.scat1 {
+    color: violet;
+}
+
+.scat2 {
+    color: lightsalmon;
+}
+
+.scat3 {
+    color: yellow;
+}

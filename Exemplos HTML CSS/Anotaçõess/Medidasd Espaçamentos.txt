@@ -1,0 +1,36 @@
+Helght: Altura
+Width: Largura
+Border: Borda
+Padding: Espaçamento do conteúdo com a borba
+Margin: Distancia Extenna
+outline: Traçamento
+
+-----CAIXAS-----
+
+box-level: Pula para para proxima linha
+Exemplo de Tag: 
+<div> 
+<h1...h6> 
+<p>
+<nain>
+<header>
+<nav>, 
+<article>
+<aside>
+<footre>
+<form>
+<video>
+
+inline-level:Mesma linha
+Exemplo de Tag:
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<aup>-<sup>
+<label>
+<button>
+<input>
+<select>

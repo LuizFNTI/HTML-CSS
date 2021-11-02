@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Responssívas</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+
+    <h2>Imagens Dinámicas</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-p.jpg" type="image/jpg"><!--Se a largura da página for 750px, ´carregagada a imagem pequena-->
+        <source media="(max-width: 1050px)" srcset="img/img-m.jpg" type="image/jpg"><!--Se a largura da página for 1050px, ´carregagada a imagem média-->
+        <img src="img/img-g.jpg" alt="img" >
+    </picture>
+
+    <h2>Aúdio</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/cartoon.mp3" type="audio/mp3"> 
+    </audio>
+
+    <h2>Vídeo</h2>
+    <video preload="metadata" width="500px" controls loop>
+        <source src="midia/video.mp4" type="video/mp4"> 
+    </video>
+
+    <h2>Vídeos Externos</h2>
+
+    <h3>Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
